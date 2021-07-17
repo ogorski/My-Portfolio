@@ -57,7 +57,8 @@
 
 .about-us {
     background-image: url("../assets/image/dot-seamless-pattern.png");
-    background-attachment: fixed;
+    background-attachment: local;
+    background-size: contain;
 }
 
 .about-us__title {
@@ -143,18 +144,41 @@
     margin-top: 70px;
 }
 
-.about-us__title-second {
+.realities-section {
+    background-image: url("../assets/image/realities_bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    height: 380px;
+    box-shadow: -152px 0px 0;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.realities-title {
     text-align: center;
     text-transform: uppercase;
     cursor: default;
     font-size: 22px;
-    padding-top: 105px;
+    padding-top: 50px;
+    color: white;
+    position: relative;
 }
 
-.about-us__subtitle-second {
-    text-align: center;
-    cursor: default;
-    padding-top: 40px;
-    font-weight: 400;
-    font-size: 18px;
+.realities-title > span {
+    color: orange;
+}
+
+.realities-block::after {
+    content: '';
+    color: orange;
+    position: absolute;
+    left: 44%;
+    height: 1px;
+    width: 55px;
+    border: 1.5px solid orange;
+    background-color: orange;
+    margin-top: 70px;
+    display: inline-block;
 }
