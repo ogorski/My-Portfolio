@@ -1,3 +1,3 @@
 Simple landing project
 
-Techonologies used: CSS3, JavaScript
+Techonologies used: CSS3
