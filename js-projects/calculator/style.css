@@ -1,0 +1,71 @@
+*, *::after, *::before {
+    font-weight: 500;
+    font-family:'Segoe UI', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to left, #00ffAA, #00AAFF);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.header-title {
+    align-items: center;
+    font-size: 2.3rem;
+    font-weight: 750;
+    font-style: normal;
+}
+
+.main-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.main-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    outline: none;
+    border: white 1px solid;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.main-grid > button:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transition: 0.3s ease-in-out;
+}
+
+.span-twins {
+    grid-column: span 2;
+}
+
+.output {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    grid-column: 1 / -1;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.output .return-operand {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.4rem;
+}
+
+.output .current-operand {
+    color: #fff;
+    font-size: 2.3rem;
+}
