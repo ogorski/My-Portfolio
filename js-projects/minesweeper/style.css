@@ -10,7 +10,7 @@
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 120% 50%;
+		background-position: 99% 50%;
 	}
 	100% {
 		background-position: 0% 50%;
@@ -20,8 +20,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(to left, #ee7752, #23a6d5, #23d5ab);
+    animation: gradient 15s ease-in-out infinite;
     background-size: 400% 400%;
 }
 
