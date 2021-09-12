@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="724c0ca2-656b-4476-ad78-d0324199f57f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-projects/src/main/java/calculator/calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-projects/src/main/java/minesweeper/minesweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-projects/src/main/java/shooting_range/shooting_range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/My-Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-Portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="724c0ca2-656b-4476-ad78-d0324199f57f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +67,7 @@
       <workItem from="1629404074685" duration="108000" />
       <workItem from="1630182912654" duration="1274000" />
       <workItem from="1630184663796" duration="1241000" />
+      <workItem from="1631379482755" duration="23000" />
     </task>
     <servers />
   </component>
